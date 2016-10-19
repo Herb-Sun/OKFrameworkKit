@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "OKFrameworkKit"
-  # s.version      = "1.1.0"
+  s.version      = "1.1.0"
   s.summary      = "OKFrameworkKit is some category library"
   s.homepage     = "https://github.com/Herb-Sun/OKFrameworkKit"
   s.license      = "MIT"
-  s.author             = { "huabei.sun" => "huabei.sun@okcoin.com" }
+  s.author       = { "huabei.sun" => "huabei.sun@okcoin.com" }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
   s.source       = { :git => "https://github.com/Herb-Sun/OKFrameworkKit.git", :tag => "#{s.version}" }
@@ -15,19 +15,19 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit", "QuartzCore"
   s.requires_arc = true
 
-  s.subspec 'Macros' do |core|
-    core.source_files = 'OKFrameworkKit/Macros/*.h'
+  s.subspec 'Macros' do |ss|
+    ss.source_files = 'OKFrameworkKit/Macros/*.h'
   end
 
-  s.subspec 'Foundation' do |core|
-    core.source_files = 'OKFrameworkKit/Foundation/*.{h,m,c}'
+  s.subspec 'Foundation' do |ss|
+    ss.source_files = 'OKFrameworkKit/Foundation/*.{h,m,c}'
   end
 
-  s.subspec 'UIKit' do |mk|
-    core.source_files = 'OKFrameworkKit/UIKit/*.{h,m,c}'
+  s.subspec 'UIKit' do |ss|
+    ss.source_files = 'OKFrameworkKit/UIKit/*.{h,m,c}'
   end
 
-  s.subspec 'QuartzCore' do |webp|
-    core.source_files = 'OKFrameworkKit/QuartzCore/*.{h,m,c}'
+  s.subspec 'QuartzCore' do |ss|
+    ss.source_files = 'OKFrameworkKit/QuartzCore/*.{h,m,c}'
   end
 end
