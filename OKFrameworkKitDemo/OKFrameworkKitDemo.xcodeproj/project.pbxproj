@@ -55,7 +55,6 @@
 		F6AB4DD81DB7572200196178 /* NSURL+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D531DB7572200196178 /* NSURL+OKCategory.m */; };
 		F6AB4DD91DB7572200196178 /* NSUserDefaults+OKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D551DB7572200196178 /* NSUserDefaults+OKCategory.h */; };
 		F6AB4DDA1DB7572200196178 /* NSUserDefaults+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D561DB7572200196178 /* NSUserDefaults+OKCategory.m */; };
-		F6AB4DDB1DB7572200196178 /* OKFrameworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D571DB7572200196178 /* OKFrameworkKit.h */; };
 		F6AB4DDC1DB7572200196178 /* OKMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D581DB7572200196178 /* OKMacroDefine.h */; };
 		F6AB4DDD1DB7572200196178 /* CAAnimation+OKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D5B1DB7572200196178 /* CAAnimation+OKCategory.h */; };
 		F6AB4DDE1DB7572200196178 /* CAAnimation+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D5C1DB7572200196178 /* CAAnimation+OKCategory.m */; };
@@ -183,7 +182,6 @@
 		F6AB4D531DB7572200196178 /* NSURL+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+OKCategory.m"; sourceTree = "<group>"; };
 		F6AB4D551DB7572200196178 /* NSUserDefaults+OKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+OKCategory.h"; sourceTree = "<group>"; };
 		F6AB4D561DB7572200196178 /* NSUserDefaults+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+OKCategory.m"; sourceTree = "<group>"; };
-		F6AB4D571DB7572200196178 /* OKFrameworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKFrameworkKit.h; sourceTree = "<group>"; };
 		F6AB4D581DB7572200196178 /* OKMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKMacroDefine.h; sourceTree = "<group>"; };
 		F6AB4D5B1DB7572200196178 /* CAAnimation+OKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+OKCategory.h"; sourceTree = "<group>"; };
 		F6AB4D5C1DB7572200196178 /* CAAnimation+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+OKCategory.m"; sourceTree = "<group>"; };
@@ -308,7 +306,6 @@
 		F6AB4D191DB7572200196178 /* OKFrameworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				F6AB4D571DB7572200196178 /* OKFrameworkKit.h */,
 				F6AB4D581DB7572200196178 /* OKMacroDefine.h */,
 				F6AB4D1A1DB7572200196178 /* Foundation */,
 				F6AB4D591DB7572200196178 /* QuartzCore */,
@@ -793,7 +790,6 @@
 				F6AB4DC11DB7572200196178 /* NSDecimalNumber+OKCategory.h in Headers */,
 				F6AB4DB21DB7572200196178 /* NSData+OKCategory.h in Headers */,
 				F6AB4DBB1DB7572200196178 /* NSFileManager+OKCategory.h in Headers */,
-				F6AB4DDB1DB7572200196178 /* OKFrameworkKit.h in Headers */,
 				F6AB4DBF1DB7572200196178 /* NSNotificationCenter+OKCategory.h in Headers */,
 				F6AB4E071DB7572200196178 /* UIView+OKAnimation.h in Headers */,
 				F6AB4E0B1DB7572200196178 /* UIView+OKCategory.h in Headers */,
