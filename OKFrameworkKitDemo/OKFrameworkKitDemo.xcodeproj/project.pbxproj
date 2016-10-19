@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6632FAD1DB79E2500255D78 /* OKMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F6632FAB1DB79E2500255D78 /* OKMacroDefine.h */; };
+		F6632FAE1DB79E2500255D78 /* OKFrameworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6632FAC1DB79E2500255D78 /* OKFrameworkKit.h */; };
 		F6AB4C071DB7562000196178 /* OKFrameworkKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AB4BFD1DB7562000196178 /* OKFrameworkKitDemo.framework */; };
 		F6AB4C0C1DB7562000196178 /* OKFrameworkKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4C0B1DB7562000196178 /* OKFrameworkKitDemoTests.m */; };
 		F6AB4C0E1DB7562000196178 /* OKFrameworkKitDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4C001DB7562000196178 /* OKFrameworkKitDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,7 +57,6 @@
 		F6AB4DD81DB7572200196178 /* NSURL+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D531DB7572200196178 /* NSURL+OKCategory.m */; };
 		F6AB4DD91DB7572200196178 /* NSUserDefaults+OKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D551DB7572200196178 /* NSUserDefaults+OKCategory.h */; };
 		F6AB4DDA1DB7572200196178 /* NSUserDefaults+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D561DB7572200196178 /* NSUserDefaults+OKCategory.m */; };
-		F6AB4DDC1DB7572200196178 /* OKMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D581DB7572200196178 /* OKMacroDefine.h */; };
 		F6AB4DDD1DB7572200196178 /* CAAnimation+OKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D5B1DB7572200196178 /* CAAnimation+OKCategory.h */; };
 		F6AB4DDE1DB7572200196178 /* CAAnimation+OKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AB4D5C1DB7572200196178 /* CAAnimation+OKCategory.m */; };
 		F6AB4DDF1DB7572200196178 /* CALayer+OKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AB4D5E1DB7572200196178 /* CALayer+OKCategory.h */; };
@@ -131,6 +132,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6632FAB1DB79E2500255D78 /* OKMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKMacroDefine.h; sourceTree = "<group>"; };
+		F6632FAC1DB79E2500255D78 /* OKFrameworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKFrameworkKit.h; sourceTree = "<group>"; };
 		F6AB4BFD1DB7562000196178 /* OKFrameworkKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKFrameworkKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AB4C001DB7562000196178 /* OKFrameworkKitDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKFrameworkKitDemo.h; sourceTree = "<group>"; };
 		F6AB4C011DB7562000196178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -182,7 +185,6 @@
 		F6AB4D531DB7572200196178 /* NSURL+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+OKCategory.m"; sourceTree = "<group>"; };
 		F6AB4D551DB7572200196178 /* NSUserDefaults+OKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+OKCategory.h"; sourceTree = "<group>"; };
 		F6AB4D561DB7572200196178 /* NSUserDefaults+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+OKCategory.m"; sourceTree = "<group>"; };
-		F6AB4D581DB7572200196178 /* OKMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKMacroDefine.h; sourceTree = "<group>"; };
 		F6AB4D5B1DB7572200196178 /* CAAnimation+OKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+OKCategory.h"; sourceTree = "<group>"; };
 		F6AB4D5C1DB7572200196178 /* CAAnimation+OKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+OKCategory.m"; sourceTree = "<group>"; };
 		F6AB4D5E1DB7572200196178 /* CALayer+OKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+OKCategory.h"; sourceTree = "<group>"; };
@@ -266,6 +268,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6632FAA1DB79E2500255D78 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				F6632FAB1DB79E2500255D78 /* OKMacroDefine.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		F6AB4BF31DB7562000196178 = {
 			isa = PBXGroup;
 			children = (
@@ -306,7 +316,8 @@
 		F6AB4D191DB7572200196178 /* OKFrameworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				F6AB4D581DB7572200196178 /* OKMacroDefine.h */,
+				F6632FAC1DB79E2500255D78 /* OKFrameworkKit.h */,
+				F6632FAA1DB79E2500255D78 /* Macros */,
 				F6AB4D1A1DB7572200196178 /* Foundation */,
 				F6AB4D591DB7572200196178 /* QuartzCore */,
 				F6AB4D621DB7572200196178 /* UIKit */,
@@ -746,6 +757,7 @@
 				F6AB4DB91DB7572200196178 /* NSDictionary+OKCategory.h in Headers */,
 				F6AB4E0F1DB7572200196178 /* UIView+OKCorner.h in Headers */,
 				F6AB4E131DB7572200196178 /* UIViewController+OKCategory.h in Headers */,
+				F6632FAD1DB79E2500255D78 /* OKMacroDefine.h in Headers */,
 				F6AB4DDD1DB7572200196178 /* CAAnimation+OKCategory.h in Headers */,
 				F6AB4C0E1DB7562000196178 /* OKFrameworkKitDemo.h in Headers */,
 				F6AB4DC91DB7572200196178 /* NSObject+OKRuntime.h in Headers */,
@@ -759,6 +771,7 @@
 				F6AB4E031DB7572200196178 /* UITextField+OKCategory.h in Headers */,
 				F6AB4DE71DB7572200196178 /* UIBezierPath+OKCategory.h in Headers */,
 				F6AB4DBD1DB7572200196178 /* NSLocale+OKCategory.h in Headers */,
+				F6632FAE1DB79E2500255D78 /* OKFrameworkKit.h in Headers */,
 				F6AB4DCB1DB7572200196178 /* NSString+OKCategory.h in Headers */,
 				F6AB4DC31DB7572200196178 /* NSNumber+OKCategory.h in Headers */,
 				F6AB4DE51DB7572200196178 /* UIApplication+OKCategory.h in Headers */,
@@ -782,7 +795,6 @@
 				F6AB4DC71DB7572200196178 /* NSObject+OKCategory.h in Headers */,
 				F6AB4E091DB7572200196178 /* UIView+OKBorder.h in Headers */,
 				F6AB4DCF1DB7572200196178 /* NSString+OKDevice.h in Headers */,
-				F6AB4DDC1DB7572200196178 /* OKMacroDefine.h in Headers */,
 				F6AB4DE11DB7572200196178 /* CALayer+OKTransition.h in Headers */,
 				F6AB4DB71DB7572200196178 /* NSDateFormatter+OKCategory.h in Headers */,
 				F6AB4DED1DB7572200196178 /* UIDevice+OKCategory.h in Headers */,

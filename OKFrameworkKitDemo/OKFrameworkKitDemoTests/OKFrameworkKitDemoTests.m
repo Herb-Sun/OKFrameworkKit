@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "OKFrameworkKit.h"
 
 @interface OKFrameworkKitDemoTests : XCTestCase
 
