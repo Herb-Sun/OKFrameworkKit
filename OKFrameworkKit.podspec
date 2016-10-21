@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Foundation' do |ss|
-    ss.source_files = 'OKFrameworkKit/Foundation/*.{h,m,c}'
+    ss.source_files = 'OKFrameworkKit/Foundation/**/*.{h,m,c}'
   end
 
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'OKFrameworkKit/UIKit/*.{h,m,c}'
+    ss.source_files = 'OKFrameworkKit/UIKit/**/*.{h,m,c}'
   end
 
   s.subspec 'QuartzCore' do |ss|
-    ss.source_files = 'OKFrameworkKit/QuartzCore/*.{h,m,c}'
+    ss.source_files = 'OKFrameworkKit/QuartzCore/**/*.{h,m,c}'
   end
 end
