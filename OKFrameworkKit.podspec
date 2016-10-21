@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OKFrameworkKit"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "OKFrameworkKit is some category library"
   s.homepage     = "https://github.com/Herb-Sun/OKFrameworkKit"
   s.license      = "MIT"
