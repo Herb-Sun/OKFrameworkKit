@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "OKFrameworkKit/OKFrameworkKit.h"
   s.source_files = 'OKFrameworkKit/OKFrameworkKit.h'
   s.frameworks = "Foundation", "UIKit", "QuartzCore"
-  s.resources    = 'OKFrameworkKit/Foundation/NSDateTimeAgo.bundle'
+  s.resources    = 'OKFrameworkKit/NSDateTimeAgo.bundle'
   s.requires_arc = true
 
   s.subspec 'Macros' do |ss|
