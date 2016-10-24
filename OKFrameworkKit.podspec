@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OKFrameworkKit"
-  s.version      = "1.1.6"
+  s.version      = "1.1.7"
   s.summary      = "OKFrameworkKit is some category library"
   s.homepage     = "https://github.com/Herb-Sun/OKFrameworkKit"
   s.license      = "MIT"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'OKFrameworkKit/UIKit/**/*.{h,m,c}'
+    ss.source_files = 'OKFrameworkKit/UIKit/**/*.{h,m,c.bundle}'
     ss.dependency 'OKFrameworkKit/Foundation'
   end
 
