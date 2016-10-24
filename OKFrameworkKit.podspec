@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'OKFrameworkKit/UIKit/**/*.{h,m,c.bundle}'
+    ss.source_files = 'OKFrameworkKit/UIKit/**/*.{h,m,c,bundle}'
     ss.dependency 'OKFrameworkKit/Foundation'
   end
 
