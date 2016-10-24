@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "huabei.sun" => "huabei.sun@okcoin.com" }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
-  s.source       = { :git => "https://github.com/Herb-Sun/OKFrameworkKit.git", :tag => s.version.to_s }
+  # s.source       = { :git => "https://github.com/Herb-Sun/OKFrameworkKit.git", :tag => s.version.to_s }
   s.source_files  = "OKFrameworkKit", "OKFrameworkKit/**/*.{h,m}"
 
   s.public_header_files = "OKFrameworkKit/OKFrameworkKit.h"
